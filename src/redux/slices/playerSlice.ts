@@ -1,11 +1,27 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { Song } from 'types/Song';
 
-const initialState = {
+type InitialStateType = {
+  currentSongs: Song[];
+  currentIndex: number;
+  isActive: boolean;
+  isPlaying: boolean;
+  activeSong: Song | undefined;
+  genreListId: string;
+};
+
+type ActiveSongPayload = {
+  song: Song;
+  index: number;
+  data: Song[];
+};
+
+const initialState: InitialStateType = {
   currentSongs: [],
   currentIndex: 0,
   isActive: false,
   isPlaying: false,
-  activeSong: {},
+  activeSong: null,
   genreListId: '',
 };
 
@@ -13,7 +29,7 @@ const playerSlice = createSlice({
   name: 'player',
   initialState,
   reducers: {
-    setActiveSong: (state, action) => {
+    setActiveSong: (state, action: PayloadAction<ActiveSongPayload>) => {
       state.activeSong = action.payload.song;
 
       if (action.payload?.data?.tracks?.hits) {
@@ -24,7 +40,7 @@ const playerSlice = createSlice({
         state.currentSongs = action.payload.data;
       }
 
-      state.currentIndex = action.payload.i;
+      state.currentIndex = action.payload.index;
       state.isActive = true;
     },
 
@@ -50,7 +66,7 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
-    playPause: (state, action) => {
+    playPause: (state, action: PayloadAction<boolean>) => {
       state.isPlaying = action.payload;
     },
 
