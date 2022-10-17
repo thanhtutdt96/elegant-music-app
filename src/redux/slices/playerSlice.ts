@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
@@ -39,8 +41,8 @@ const playerSlice = createSlice({
         return;
       }
 
-      if ('tracks' in action.payload.data && action.payload?.data?.tracks?.hits) {
-        state.currentSongs = action.payload.data.tracks.hits;
+      if (action.payload?.data?.tracks?.hits) {
+        state.currentSongs = action.payload.data.tracks.hits.map((item) => item.track);
       } else if (action.payload?.data?.properties) {
         state.currentSongs = action.payload?.data?.tracks;
       } else {

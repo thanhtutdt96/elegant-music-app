@@ -3,6 +3,7 @@ import { Song } from 'types/Song';
 export type SearchResult = {
   artists: Artists;
   tracks: Tracks;
+  properties: Record<string, unknown>;
 };
 
 export type Artists = {
