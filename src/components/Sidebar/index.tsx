@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { links } from 'assets/constants';
+import logo from 'assets/logo.png';
 import { HiOutlineMenu, RiCloseLine } from 'react-icons/all';
 
 type NavLinksProps = {
@@ -29,7 +30,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
-        <img src="/resources/logo.png" alt="Logo" className="w-full h-14 object-contain" />
+        <img src={logo} alt="Logo" className="w-full h-14 object-contain" />
         <p className="text-lg text-[#cd9bea] font-semibold text-center mt-3">Elegant Music</p>
         <NavLinks />
       </div>
@@ -52,7 +53,8 @@ const Sidebar = () => {
         className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[#483d8b]
           backdrop-blur-lg z-10 p-6 md:hidden smooth-transition
           ${isMobileMenuOpen ? 'left-0' : '-left-full'}`}>
-        <img src="/resources/logo.png" alt="Logo" className="w-full h-14 object-contain" />
+        <img src={logo} alt="Logo" className="w-full h-14 object-contain" />
+        <p className="text-lg text-[#cd9bea] font-semibold text-center mt-3">Elegant Music</p>
         <NavLinks handleClick={() => setIsMobileMenuOpen(false)} />
       </div>
     </>

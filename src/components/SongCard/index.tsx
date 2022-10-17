@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAppDispatch } from 'redux/hooks';
 import { playPause, setActiveSong } from 'redux/slices/playerSlice';
+import placeholder from 'assets/placeholder.png';
 import PlayPause from 'components/PlayPause';
 import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
@@ -40,7 +41,7 @@ const SongCard: React.FC<Props> = ({ song, index, isPlaying, activeSong, data })
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song img" src={song.images?.coverart || '/resources/placeholder.png'} />
+        <img alt="song img" src={song.images?.coverart || placeholder} />
       </div>
 
       <div className="mt-4 flex flex-col">
