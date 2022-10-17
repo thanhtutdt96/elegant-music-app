@@ -1,4 +1,6 @@
-export interface Song {
+import { SongAttributes } from 'types/ArtistDetail';
+
+export type Song = {
   artists: Artist[];
   hub: Hub;
   images: Images;
@@ -7,92 +9,60 @@ export interface Song {
   share: Share;
   subtitle: string;
   title: string;
-  type: RootObjectType;
+  type: string;
   url: string;
-}
+  attributes?: SongAttributes;
+  href: string;
+  id: string;
+};
 
-export interface Artist {
+export type Artist = {
   adamid: string;
   alias: string;
   id: string;
-}
+};
 
-export interface Hub {
+export type Hub = {
   actions: Action[];
-  displayname: Displayname;
+  displayname: string;
   explicit: boolean;
   image: string;
   options: Option[];
-  type: HubType;
-}
+  type: string;
+};
 
-export interface Action {
+export type Action = {
   id?: string;
-  name: Name;
-  type: ActionType;
+  name: string;
+  type: string;
   uri?: string;
-}
+};
 
-export enum Name {
-  Apple = 'apple',
-  HubApplemusicDeeplink = 'hub:applemusic:deeplink',
-}
-
-export enum ActionType {
-  Applemusicopen = 'applemusicopen',
-  Applemusicplay = 'applemusicplay',
-  URI = 'uri',
-}
-
-export enum Displayname {
-  AppleMusic = 'APPLE MUSIC',
-}
-
-export interface Option {
+export type Option = {
   actions: Action[];
   beacondata: Beacondata;
-  caption: Caption;
+  caption: string;
   colouroverflowimage: boolean;
   image: string;
-  listcaption: Listcaption;
+  listcaption: string;
   overflowimage: string;
-  providername: Providername;
-  type: BeacondataType;
-}
+  providername: string;
+  type: string;
+};
 
-export interface Beacondata {
-  providername: Providername;
-  type: BeacondataType;
-}
+export type Beacondata = {
+  providername: string;
+  type: string;
+};
 
-export enum Providername {
-  Applemusic = 'applemusic',
-}
-
-export enum BeacondataType {
-  Open = 'open',
-}
-
-export enum Caption {
-  Open = 'OPEN',
-}
-
-export enum Listcaption {
-  OpenInAppleMusic = 'Open in Apple Music',
-}
-
-export enum HubType {
-  Applemusic = 'APPLEMUSIC',
-}
-
-export interface Images {
+export type Images = {
   background: string;
   coverart: string;
   coverarthq: string;
   joecolor: string;
-}
+};
 
-export interface Share {
+export type Share = {
   avatar?: string;
   href: string;
   html: string;
@@ -101,8 +71,4 @@ export interface Share {
   subject: string;
   text: string;
   twitter: string;
-}
-
-export enum RootObjectType {
-  Music = 'MUSIC',
-}
+};

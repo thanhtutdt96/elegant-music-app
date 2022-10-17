@@ -6,8 +6,8 @@ type Props = {
   song: Song;
   isPlaying?: boolean;
   activeSong?: Song;
-  handlePlay: () => void;
-  handlePause: () => void;
+  handlePlay?: () => void;
+  handlePause?: () => void;
 };
 
 const PlayPause: React.FC<Props> = ({ song, activeSong, isPlaying, handlePlay, handlePause }) =>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAppDispatch } from 'redux/hooks';
 import { playPause, setActiveSong } from 'redux/slices/playerSlice';
 import PlayPause from 'components/PlayPause';
+import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
 
 type Props = {
@@ -10,7 +11,7 @@ type Props = {
   index: number;
   isPlaying?: boolean;
   activeSong?: Song;
-  data: Song[];
+  data?: Song[] | SearchResult;
 };
 
 const SongCard: React.FC<Props> = ({ song, index, isPlaying, activeSong, data }) => {
@@ -30,7 +31,7 @@ const SongCard: React.FC<Props> = ({ song, index, isPlaying, activeSong, data })
       <div className="relative w-full h-56 group">
         <div
           className={`absolute inset-0 justify-center items-center bg-black bg-opacity-50 group-hover:flex
-        ${activeSong?.title === song.title ? 'flex bg-black bg-opacity-70' : 'hidden'}`}>
+        ${activeSong?.key === song.key ? 'flex bg-black bg-opacity-70' : 'hidden'}`}>
           <PlayPause
             song={song}
             activeSong={activeSong}
@@ -39,7 +40,7 @@ const SongCard: React.FC<Props> = ({ song, index, isPlaying, activeSong, data })
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song img" src={song.images?.coverart} />
+        <img alt="song img" src={song.images?.coverart || '/resources/placeholder.png'} />
       </div>
 
       <div className="mt-4 flex flex-col">

@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
 
 type InitialStateType = {
@@ -13,7 +14,7 @@ type InitialStateType = {
 type ActiveSongPayload = {
   song: Song;
   index: number;
-  data: Song[];
+  data?: Song[] | SearchResult;
 };
 
 const initialState: InitialStateType = {
@@ -21,8 +22,8 @@ const initialState: InitialStateType = {
   currentIndex: 0,
   isActive: false,
   isPlaying: false,
-  activeSong: null,
-  genreListId: '',
+  activeSong: undefined,
+  genreListId: 'POP',
 };
 
 const playerSlice = createSlice({
@@ -31,17 +32,20 @@ const playerSlice = createSlice({
   reducers: {
     setActiveSong: (state, action: PayloadAction<ActiveSongPayload>) => {
       state.activeSong = action.payload.song;
+      state.currentIndex = action.payload.index;
+      state.isActive = true;
 
-      if (action.payload?.data?.tracks?.hits) {
+      if (!action.payload.data) {
+        return;
+      }
+
+      if ('tracks' in action.payload.data && action.payload?.data?.tracks?.hits) {
         state.currentSongs = action.payload.data.tracks.hits;
       } else if (action.payload?.data?.properties) {
         state.currentSongs = action.payload?.data?.tracks;
       } else {
-        state.currentSongs = action.payload.data;
+        state.currentSongs = action.payload.data || [];
       }
-
-      state.currentIndex = action.payload.index;
-      state.isActive = true;
     },
 
     nextSong: (state, action) => {
