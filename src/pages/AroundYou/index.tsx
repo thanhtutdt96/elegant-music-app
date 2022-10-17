@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useAppSelector } from 'redux/hooks';
 import { useGetSongsByCountryQuery } from 'redux/services/shazamCore';
+import { GEO_IPIFY_KEY } from 'assets/constants';
 import axios from 'axios';
 import Error from 'components/Error';
 import Loader from 'components/Loader';
@@ -19,7 +20,7 @@ const AroundYou = () => {
     setIsLoading(true);
 
     const response = await axios
-      .get('https://geo.ipify.org/api/v2/country?apiKey=at_KPVzx04JR5hVs2H76UCqSmWlbp54P')
+      .get(`https://geo.ipify.org/api/v2/country?apiKey=${GEO_IPIFY_KEY}`)
       .catch((error) => console.log(error))
       .finally(() => setIsLoading(false));
 

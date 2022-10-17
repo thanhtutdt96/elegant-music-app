@@ -28,3 +28,6 @@ export const links = [
   { name: 'Top Artists', to: '/top-artists', icon: HiOutlineUserGroup },
   { name: 'Top Charts', to: '/top-charts', icon: HiOutlineHashtag },
 ];
+
+export const RAPID_API_KEY = import.meta.env.VITE_RAPID_API_KEY;
+export const GEO_IPIFY_KEY = import.meta.env.VITE_GEO_IPIFY_API_KEY;
