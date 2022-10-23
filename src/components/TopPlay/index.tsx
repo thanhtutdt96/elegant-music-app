@@ -55,10 +55,6 @@ const TopPlay = () => {
   const { data } = useGetTopChartsQuery();
   const wrapperRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    wrapperRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
-
   const topPlays = data?.slice(0, 5);
 
   const handlePlayClick = (song: Song, index: number) => {
