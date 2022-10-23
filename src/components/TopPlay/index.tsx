@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from 'redux/hooks';
 import { useGetTopChartsQuery } from 'redux/services/shazamCore';
@@ -54,10 +54,6 @@ const TopPlay = () => {
   const { activeSong, isPlaying } = useAppSelector((state) => state.player);
   const { data } = useGetTopChartsQuery();
   const wrapperRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    wrapperRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
 
   const topPlays = data?.slice(0, 5);
 
