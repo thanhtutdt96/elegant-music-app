@@ -8,7 +8,7 @@ import { SongDetail } from 'types/SongDetail';
 export const shazamCoreApi = createApi({
   reducerPath: 'shazamCoreApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
+    baseUrl: 'https://shazam-core.p.rapidapi.com',
     prepareHeaders: (headers) => {
       headers.set('X-RapidAPI-Key', RAPID_API_KEY);
 
