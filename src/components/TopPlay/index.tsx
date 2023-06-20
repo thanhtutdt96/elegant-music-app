@@ -26,7 +26,7 @@ const TopChartCard: React.FC<TopChartCardProps> = ({
   handlePlayClick,
   handlePauseClick,
 }) => (
-  <div className="flex py-2 p-4 rounded-lg cursor-pointer mb-2 w-full flex flex-row items-center hover:bg-[#4c426e]">
+  <div className="flex py-2 p-4 rounded-lg cursor-pointer mb-2 w-full flex flex-row items-center hover:bg-[#27374D]">
     <h3 className="font-bold text-base text-white mr-3">{index + 1}</h3>
     <div className="flex-1 flex flex-row justify-between items-center">
       <img className="h-20 w-20 rounded-full" src={song.images?.coverart} alt={song.title} />

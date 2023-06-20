@@ -33,7 +33,8 @@ export const shazamCoreApi = createApi({
       query: (genre: string) => `/v1/charts/genre-world?genre_code=${genre}`,
     }),
     getSongsBySearch: builder.query<SearchResult, string>({
-      query: (searchTerm: string) => `/v1/search/multi?search_type=SONGS_ARTISTS&query=${searchTerm}`,
+      query: (searchTerm: string) =>
+        `/v1/search/multi?search_type=SONGS_ARTISTS&query=${searchTerm}`,
     }),
   }),
 });

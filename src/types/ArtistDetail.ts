@@ -1,9 +1,5 @@
-import { Song } from 'types/Song';
-
 export type ArtistDetail = {
-  albums: { [key: string]: Album };
-  artists: { [key: string]: Artists };
-  songs: { [key: string]: Song };
+  data: Artists[];
 };
 
 export type Album = {

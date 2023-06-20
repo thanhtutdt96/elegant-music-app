@@ -1,6 +1,6 @@
 import { FormEvent, useState } from 'react';
 import { useNavigate } from 'react-router';
-import { FiSearch } from 'react-icons/all';
+import { FiSearch } from 'react-icons/fi';
 
 const Searchbar = () => {
   const navigate = useNavigate();

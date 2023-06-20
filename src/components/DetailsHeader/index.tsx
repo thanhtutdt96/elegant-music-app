@@ -13,7 +13,7 @@ const DetailsHeader: React.FC<Props> = ({ artistId, artistData, songData }) => {
   let artist = null;
 
   if (artistId) {
-    artist = artistData?.artists[artistId]?.attributes;
+    artist = artistData?.data?.[0]?.attributes;
   }
 
   return (

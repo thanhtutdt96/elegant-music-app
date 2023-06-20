@@ -23,11 +23,11 @@ const SongBar: React.FC<Props> = ({
   handlePlayClick,
 }) => (
   <div
-    className={`w-full flex flex-row items-center hover:bg-[#4c426e] ${
+    className={`w-full flex flex-row items-center hover:bg-[#27374D] ${
       artistId
         ? activeSong?.title === song?.attributes?.name
         : activeSong?.title === song?.title
-        ? 'bg-[#4c426e]'
+        ? 'bg-[#27374D]'
         : 'bg-transparent'
     } py-2 p-4 rounded-lg cursor-pointer mb-2`}>
     <h3 className="font-bold text-base text-white mr-3">{index + 1}.</h3>
