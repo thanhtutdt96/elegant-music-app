@@ -1,14 +1,11 @@
 import { useParams } from 'react-router';
-import { useAppSelector } from 'redux/hooks';
 import { useGetSongsBySearchQuery } from 'redux/services/shazamCore';
 import Error from 'components/Error';
 import Loader from 'components/Loader';
 import SearchSongCard from 'components/SongCard/SearchSongCard';
-import { SearchSong } from 'types/SearchResult';
 
 const Search = () => {
   const { searchTerm } = useParams();
-  const { activeSong, isPlaying } = useAppSelector((state) => state.player);
   const { data, isFetching, error } = useGetSongsBySearchQuery(searchTerm || '');
 
   if (isFetching) {
@@ -28,8 +25,8 @@ const Search = () => {
       </h2>
 
       <div className="flex flex-wrap sm:justify-start justify-center gap-8">
-        {songs?.map((song, index) => (
-          <SearchSongCard key={song.id} song={song} />
+        {songs?.map((song) => (
+          <SearchSongCard key={song.key} song={song} />
         ))}
       </div>
     </div>
