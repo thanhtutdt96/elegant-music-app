@@ -50,7 +50,7 @@ const Player: React.FC<Props> = ({
   return (
     // eslint-disable-next-line jsx-a11y/media-has-caption
     <audio
-      src={activeSong?.hub?.actions[1]?.uri}
+      src={activeSong?.attributes?.previews?.[0]?.url}
       ref={ref}
       loop={isRepeat}
       onEnded={onEnded}

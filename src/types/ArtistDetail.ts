@@ -1,5 +1,24 @@
+export type ArtistDetailData = {
+  attributes: Attributes;
+  href: string;
+  id: string;
+  meta: {
+    views: MetaViews;
+  };
+  relationships: ArtistDetailRelationships;
+  type: string;
+  views: {
+    'latest-release': LatestRelease;
+    'top-songs': Albums;
+  };
+};
+
+export type ArtistDetailRelationships = {
+  albums: Albums;
+};
+
 export type ArtistDetail = {
-  data: Artists[];
+  data: ArtistDetailData[];
 };
 
 export type Album = {
@@ -72,21 +91,6 @@ export type Preview = {
   url: string;
 };
 
-export type Artists = {
-  attributes: Attributes;
-  href: string;
-  id: string;
-  meta: {
-    views: MetaViews;
-  };
-  relationships: Relationships;
-  type: string;
-  views: {
-    'latest-release': LatestRelease;
-    'top-songs': Albums;
-  };
-};
-
 export type Attributes = {
   artwork: Artwork;
   genreNames: string[];
@@ -98,8 +102,23 @@ export type MetaViews = {
   order: string[];
 };
 
+export type Artist = {
+  id: string;
+  type: string;
+  href: string;
+};
+
+export type Artists = {
+  href: string;
+  data: Artist[];
+};
+
 export type Relationships = {
-  albums: Albums;
+  'music-videos': {
+    href: string;
+    data: unknown[];
+  };
+  artists: Artists;
 };
 
 export type Albums = {

@@ -1,4 +1,5 @@
-import { Song } from 'types/Song';
+import { SongAttributes } from './ArtistDetail';
+import { Artist, Hub, Images, Share } from 'types/Song';
 
 export type SearchResult = {
   artists: Artists;
@@ -27,5 +28,21 @@ export type Tracks = {
 };
 
 export type TracksHit = {
-  track: Song;
+  track: SearchSong;
+};
+
+export type SearchSong = {
+  artists: Artist[];
+  hub: Hub;
+  images: Images;
+  key: string;
+  layout: string;
+  share: Share;
+  subtitle: string;
+  title: string;
+  type: string;
+  url: string;
+  attributes?: SongAttributes;
+  href: string;
+  id: string;
 };

@@ -11,7 +11,7 @@ type Props = {
 };
 
 const PlayPause: React.FC<Props> = ({ song, activeSong, isPlaying, handlePlay, handlePause }) =>
-  isPlaying && activeSong?.title === song.title ? (
+  isPlaying && activeSong?.attributes?.name === song.attributes?.name ? (
     <FaPauseCircle size={35} className="text-gray-300" onClick={handlePause} />
   ) : (
     <FaPlayCircle size={35} className="text-gray-300" onClick={handlePlay} />

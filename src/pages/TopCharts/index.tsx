@@ -6,7 +6,7 @@ import SongCard from 'components/SongCard';
 
 const TopCharts = () => {
   const { activeSong, isPlaying } = useAppSelector((state) => state.player);
-  const { data, isFetching, error } = useGetTopChartsQuery();
+  const { data, isFetching, error } = useGetTopChartsQuery({});
 
   if (isFetching) {
     return <Loader title="Loading top charts" />;
@@ -23,7 +23,7 @@ const TopCharts = () => {
       <div className="flex flex-wrap sm:justify-start justify-center gap-8">
         {data?.map((song, index) => (
           <SongCard
-            key={song.key}
+            key={song.id}
             song={song}
             index={index}
             data={data}

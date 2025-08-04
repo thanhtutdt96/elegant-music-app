@@ -4,7 +4,7 @@ import Error from 'components/Error';
 import Loader from 'components/Loader';
 
 const TopArtists = () => {
-  const { data, isFetching, error } = useGetTopChartsQuery();
+  const { data, isFetching, error } = useGetTopChartsQuery({});
 
   if (isFetching) {
     return <Loader title="Loading top artists" />;
@@ -20,7 +20,7 @@ const TopArtists = () => {
 
       <div className="flex flex-wrap sm:justify-start justify-center gap-8">
         {data?.map((track) => (
-          <ArtistCard key={track.key} track={track} />
+          <ArtistCard key={track.id} track={track} />
         ))}
       </div>
     </div>

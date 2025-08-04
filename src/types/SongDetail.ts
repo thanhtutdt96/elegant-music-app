@@ -1,6 +1,6 @@
-import { Song } from 'types/Song';
+import { SearchSong } from 'types/SearchResult';
 
-export type SongDetail = Song & {
+export type SongDetail = SearchSong & {
   albumadamid: string;
   alias: string;
   genres: Genres;

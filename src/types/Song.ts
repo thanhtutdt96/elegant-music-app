@@ -1,17 +1,10 @@
-import { SongAttributes } from 'types/ArtistDetail';
+import { Relationships, SongAttributes } from 'types/ArtistDetail';
 
 export type Song = {
-  artists: Artist[];
-  hub: Hub;
-  images: Images;
-  key: string;
-  layout: string;
-  share: Share;
-  subtitle: string;
-  title: string;
   type: string;
   url: string;
   attributes?: SongAttributes;
+  relationships?: Relationships;
   href: string;
   id: string;
 };
