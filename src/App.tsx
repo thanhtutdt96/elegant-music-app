@@ -1,5 +1,7 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { useAppSelector } from 'redux/hooks';
+import { useGetSongsByGenreQuery } from 'redux/services/shazamCore';
+import Loader from 'components/Loader';
 import MusicPlayer from 'components/MusicPlayer';
 import Searchbar from 'components/Searchbar';
 import Sidebar from 'components/Sidebar';
@@ -13,7 +15,17 @@ import TopArtists from 'pages/TopArtists';
 import TopCharts from 'pages/TopCharts';
 
 const App = () => {
-  const activeSong = useAppSelector((state) => state.player.activeSong);
+  const location = useLocation();
+  const { activeSong, genreListId } = useAppSelector((state) => state.player);
+
+  // Only run the genre query when on the Discover route to check loading state
+  const { isLoading: isGenreQueryLoading } = useGetSongsByGenreQuery(
+    { genre: genreListId },
+    { skip: location.pathname !== '/' },
+  );
+
+  // Determine if TopPlay should render
+  const shouldRenderTopPlay = location.pathname !== '/' || !isGenreQueryLoading;
 
   return (
     <div className="relative flex">
@@ -33,8 +45,12 @@ const App = () => {
               <Route path="/search/:searchTerm" element={<Search />} />
             </Routes>
           </div>
-          <div className="xl:sticky relative top-0 h-fit">
-            <TopPlay />
+          <div className="xl:sticky relative top-0 h-fit transition-all duration-300 ease-in-out">
+            {shouldRenderTopPlay ? (
+              <TopPlay />
+            ) : (
+              <Loader size="medium" title="Loading top charts" />
+            )}
           </div>
         </div>
       </div>

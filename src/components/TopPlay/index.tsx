@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from 'redux/hooks';
 import { useGetTopChartsQuery } from 'redux/services/shazamCore';
 import { playPause, setActiveSong } from 'redux/slices/playerSlice';
+import Loader from 'components/Loader';
 import PlayPause from 'components/PlayPause';
 import { FreeMode } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -56,7 +57,7 @@ const TopChartCard: React.FC<TopChartCardProps> = ({
 const TopPlay = () => {
   const dispatch = useAppDispatch();
   const { activeSong, isPlaying } = useAppSelector((state) => state.player);
-  const { data } = useGetTopChartsQuery({});
+  const { data, isLoading } = useGetTopChartsQuery({});
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   const topPlays = data?.slice(0, 5);
@@ -69,6 +70,10 @@ const TopPlay = () => {
   const handlePauseClick = () => {
     dispatch(playPause(false));
   };
+
+  if (isLoading) {
+    return <Loader size="medium" title="Loading top charts" />;
+  }
 
   return (
     <div
