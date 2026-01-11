@@ -1,5 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { RAPID_API_KEY } from 'assets/constants';
+import songsByCountryMock from 'mocks/songsByCountry.json';
+import songsByGenreMock from 'mocks/songsByGenre.json';
+import topChartsMock from 'mocks/topCharts.json';
 import { ArtistDetail } from 'types/ArtistDetail';
 import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
@@ -18,7 +21,8 @@ export const shazamCoreApi = createApi({
   }),
   endpoints: (builder) => ({
     getTopCharts: builder.query<Song[], { countryCode?: string }>({
-      query: ({ countryCode = 'US' }) => `v1/charts/world?country_code=${countryCode}`,
+      // query: ({ countryCode = 'US' }) => `v2/charts/world?country_code=${countryCode}`,
+      queryFn: async () => ({ data: topChartsMock as unknown as Song[] }),
     }),
     getSongDetails: builder.query<SongDetail, string>({
       query: (songId: string) => `/v1/tracks/details?track_id=${songId}`,
@@ -30,15 +34,13 @@ export const shazamCoreApi = createApi({
       query: (artistId: string) => `/v2/artists/details?artist_id=${artistId}`,
     }),
     getSongsByCountry: builder.query<Song[], string>({
-      query: (countryCode: string) => `/v1/charts/country?country_code=${countryCode}`,
+      queryFn: async () => ({ data: songsByCountryMock as unknown as Song[] }),
     }),
     getSongsByGenre: builder.query<Song[], { genre: string; countryCode?: string }>({
-      query: ({ genre, countryCode = 'US' }) =>
-        `/v1/charts/genre-world?genre_code=${genre}&country_code=${countryCode}`,
+      queryFn: async () => ({ data: songsByGenreMock as unknown as Song[] }),
     }),
     getSongsBySearch: builder.query<SearchResult, string>({
-      query: (searchTerm: string) =>
-        `/v1/search/multi?search_type=SONGS_ARTISTS&query=${searchTerm}`,
+      query: (searchTerm: string) => `/v1/search/multi?search_type=SONGS&query=${searchTerm}`,
     }),
   }),
 });

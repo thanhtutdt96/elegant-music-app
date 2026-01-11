@@ -41,7 +41,14 @@ const SongCard: React.FC<Props> = ({ song, index, isPlaying, activeSong, data })
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song img" src={song.attributes?.artwork?.url || placeholder} />
+        <img
+          alt="song img"
+          src={
+            song.attributes?.artwork?.url
+              ? song.attributes.artwork.url.replace('{w}', '500').replace('{h}', '500')
+              : placeholder
+          }
+        />
       </div>
 
       <div className="mt-4 flex flex-col">

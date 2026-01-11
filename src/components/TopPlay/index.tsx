@@ -32,7 +32,11 @@ const TopChartCard: React.FC<TopChartCardProps> = ({
     <div className="flex-1 flex flex-row justify-between items-center">
       <img
         className="h-16 w-16 rounded-full"
-        src={song.attributes?.artwork?.url}
+        src={
+          song.attributes?.artwork?.url
+            ? song.attributes.artwork.url.replace('{w}', '300').replace('{h}', '300')
+            : undefined
+        }
         alt={song.attributes?.name}
       />
       <div className="flex-1 flex flex-col justify-center mx-3">
@@ -125,7 +129,11 @@ const TopPlay = () => {
               className="shadow-lg rounded-full animate-slideright">
               <Link to={`/artists/${song.relationships?.artists?.data?.[0]?.id}`}>
                 <img
-                  src={song.attributes?.artwork?.url}
+                  src={
+                    song.attributes?.artwork?.url
+                      ? song.attributes.artwork.url.replace('{w}', '500').replace('{h}', '500')
+                      : undefined
+                  }
                   alt="name"
                   className="rounded-full w-full object-cover"
                 />
