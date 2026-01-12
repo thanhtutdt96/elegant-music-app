@@ -1,868 +1,1064 @@
 [
   {
+    "id": "1440871420",
     "type": "songs",
-    "id": "1624932774",
-    "href": "/v1/catalog/bg/songs/1624932774",
-    "url": "https://music.apple.com/bg/album/pop/1624932642?i=1624932774",
+    "href": "/v1/catalog/bg/songs/1440871420",
+    "url": "https://music.apple.com/bg/album/starboy-feat-daft-punk/1440871397?i=1440871420",
     "attributes": {
-      "name": "POP!",
-      "artistName": "NAYEON",
-      "albumName": "IM NAYEON",
-      "genreNames": ["Dance", "Music"],
+      "albumName": "Starboy",
+      "artistName": "The Weeknd",
+      "artwork": {
+        "bgColor": "121c42",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "efbd0d",
+        "textColor2": "e5681c",
+        "textColor3": "c39d17",
+        "textColor4": "bb5924",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
       "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["R&B/Soul", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Starboy (feat. Daft Punk)",
+      "playParams": { "id": "1440871420", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/23/18/d62318c4-f17e-a045-ac68-458717055484/mzaf_16680922328411133096.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2016-09-21",
+      "url": "https://music.apple.com/bg/album/starboy-feat-daft-punk/1440871397?i=1440871420"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1440871420/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1440871420/artists",
+        "data": [
+          {
+            "id": "artist-1440871420",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1440871420"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1384304787",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1384304787",
+    "url": "https://music.apple.com/bg/album/taste-feat-offset/1384304786?i=1384304787",
+    "attributes": {
+      "albumName": "Taste (feat. Offset) - Single",
+      "artistName": "Tyga",
+      "artwork": {
+        "bgColor": "ccd4e3",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "101f22",
+        "textColor2": "162326",
+        "textColor3": "364348",
+        "textColor4": "3a474b",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/c4/24/a5c424a5-8084-47ab-3fa8-e82f00faf1bf/888915632314_cover.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
       "isMasteredForItunes": false,
-      "releaseDate": "2022-06-24",
-      "url": "https://music.apple.com/bg/album/pop/1624932642?i=1624932774",
-      "playParams": { "id": "1624932774", "kind": "song" },
-      "artwork": {
-        "width": 1400,
-        "height": 1400,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/49/ec/3f49ecb2-cb91-dd28-45b9-a31326d7e63b/738676859614_Cover.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "b5deee",
-        "textColor1": "23231e",
-        "textColor2": "262b28",
-        "textColor3": "404947",
-        "textColor4": "424e4f"
-      },
+      "name": "Taste (feat. Offset)",
+      "playParams": { "id": "1384304787", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/e3/cc/78e3ccf4-319a-e7fa-31a9-78a340ef116e/mzaf_14966132076590295620.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bb/6b/c8/bb6bc802-78d2-c0b9-1434-cdcd7c6c7eb3/mzaf_17869881776558752489.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2018-05-16",
+      "url": "https://music.apple.com/bg/album/taste-feat-offset/1384304786?i=1384304787"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1624932774/music-videos",
+        "href": "/v1/catalog/bg/songs/1384304787/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1624932774/artists",
+        "href": "/v1/catalog/bg/songs/1384304787/artists",
         "data": [
           {
-            "id": "artist-1624932774",
+            "id": "artist-1384304787",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1624932774"
+            "href": "/v1/catalog/bg/artists/artist-1384304787"
           }
         ]
       }
     }
   },
   {
+    "id": "1584281787",
     "type": "songs",
-    "id": "1193701392",
-    "href": "/v1/catalog/bg/songs/1193701392",
-    "url": "https://music.apple.com/bg/album/shape-of-you/1193701079?i=1193701392",
+    "href": "/v1/catalog/bg/songs/1584281787",
+    "url": "https://music.apple.com/bg/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787",
     "attributes": {
-      "name": "Shape of You",
-      "artistName": "Ed Sheeran",
-      "albumName": "÷ (Deluxe)",
-      "genreNames": ["Pop", "Music", "Singer/Songwriter"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2017-01-06",
-      "url": "https://music.apple.com/bg/album/shape-of-you/1193701079?i=1193701392",
-      "playParams": { "id": "1193701392", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "3db1dc",
-        "textColor1": "040d10",
-        "textColor2": "0d252c",
-        "textColor3": "102d38",
-        "textColor4": "16414f"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/e8/4b/8be84b71-0ca5-6158-b4a4-4cf9b647cb17/mzaf_14790669675724230085.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1193701392/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1193701392/artists",
-        "data": [
-          {
-            "id": "artist-1193701392",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1193701392"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1487502476",
-    "href": "/v1/catalog/bg/songs/1487502476",
-    "url": "https://music.apple.com/bg/album/everything-i-wanted/1487502456?i=1487502476",
-    "attributes": {
-      "name": "everything i wanted",
-      "artistName": "Billie Eilish",
-      "albumName": "everything i wanted - Single",
-      "genreNames": ["Alternative", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2019-11-13",
-      "url": "https://music.apple.com/bg/album/everything-i-wanted/1487502456?i=1487502476",
-      "playParams": { "id": "1487502476", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/6c/b1/c56cb16a-52c3-33b5-5189-6c65028001fb/19UM1IM00404.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "cdbf84",
-        "textColor1": "231717",
-        "textColor2": "1e1c21",
-        "textColor3": "45382d",
-        "textColor4": "413d35"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/f3/6b/23f36bc0-9edc-8d55-df7f-7b806310d4b4/mzaf_2313894486924895665.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1487502476/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1487502476/artists",
-        "data": [
-          {
-            "id": "artist-1487502476",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1487502476"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1418213269",
-    "href": "/v1/catalog/bg/songs/1418213269",
-    "url": "https://music.apple.com/bg/album/gods-plan/1418213110?i=1418213269",
-    "attributes": {
-      "name": "God's Plan",
+      "albumName": "Certified Lover Boy",
       "artistName": "Drake",
-      "albumName": "Scorpion",
-      "genreNames": ["Hip-Hop/Rap", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2018-01-19",
-      "url": "https://music.apple.com/bg/album/gods-plan/1418213110?i=1418213269",
-      "playParams": { "id": "1418213269", "kind": "song" },
       "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/440x440bb.jpg",
+        "bgColor": "ffffff",
         "hasP3": false,
-        "bgColor": "2f2f2f",
-        "textColor1": "fdfdfd",
-        "textColor2": "e4e4e4",
-        "textColor3": "d4d4d4",
-        "textColor4": "c0c0c0"
+        "height": 3000,
+        "textColor1": "3a2a1e",
+        "textColor2": "39322a",
+        "textColor3": "62544b",
+        "textColor4": "605b55",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/440x440bb.jpg",
+        "width": 3000
       },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/40/ef/be/40efbe69-6e26-18cb-6f16-3ed4af6758bb/mzaf_2013877337721445701.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1418213269/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1418213269/artists",
-        "data": [
-          {
-            "id": "artist-1418213269",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1418213269"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1440934115",
-    "href": "/v1/catalog/bg/songs/1440934115",
-    "url": "https://music.apple.com/bg/album/love-on-the-brain/1440933869?i=1440934115",
-    "attributes": {
-      "name": "Love on the Brain",
-      "artistName": "Rihanna",
-      "albumName": "ANTI (Deluxe)",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
       "isMasteredForItunes": true,
-      "releaseDate": "2016-01-28",
-      "url": "https://music.apple.com/bg/album/love-on-the-brain/1440933869?i=1440934115",
-      "playParams": { "id": "1440934115", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/e9/60/11e9600c-7f3a-424b-1643-97c69f7e8067/16UMGIM03373.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "c9cdd0",
-        "textColor1": "3f0b0d",
-        "textColor2": "301a0e",
-        "textColor3": "5a3234",
-        "textColor4": "4f3e35"
-      },
+      "name": "Knife Talk (feat. 21 Savage & Project Pat)",
+      "playParams": { "id": "1584281787", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b7/f8/df/b7f8dfb4-62e7-9ba3-25d2-cfaef60d4afa/mzaf_15877674982524137505.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e4/fe/bb/e4febb0a-fff9-0dd0-05e6-9e7e5177e42a/mzaf_8873186016835721650.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2021-09-03",
+      "url": "https://music.apple.com/bg/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1440934115/music-videos",
+        "href": "/v1/catalog/bg/songs/1584281787/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1440934115/artists",
+        "href": "/v1/catalog/bg/songs/1584281787/artists",
         "data": [
           {
-            "id": "artist-1440934115",
+            "id": "artist-1584281787",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1440934115"
+            "href": "/v1/catalog/bg/artists/artist-1584281787"
           }
         ]
       }
     }
   },
   {
+    "id": "1710685786",
     "type": "songs",
-    "id": "1479678552",
-    "href": "/v1/catalog/bg/songs/1479678552",
-    "url": "https://music.apple.com/bg/album/roses-imanbek-remix/1479678547?i=1479678552",
+    "href": "/v1/catalog/bg/songs/1710685786",
+    "url": "https://music.apple.com/bg/album/idgaf-feat-yeat/1710685602?i=1710685786",
     "attributes": {
-      "name": "Roses (Imanbek Remix)",
-      "artistName": "SAINt JHN",
-      "albumName": "Roses (Imanbek Remix) - Single",
-      "genreNames": ["Dance", "Music"],
+      "albumName": "For All The Dogs",
+      "artistName": "Drake",
+      "artwork": {
+        "bgColor": "060604",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "c6d4d0",
+        "textColor2": "b6c7c1",
+        "textColor3": "a0aba7",
+        "textColor4": "93a09b",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/21/50/ee/2150ee84-62c3-4190-7dfa-da30abd98ac8/23UM1IM09862.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
       "audioTraits": ["lossless", "lossy-stereo"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2018-09-18",
-      "url": "https://music.apple.com/bg/album/roses-imanbek-remix/1479678547?i=1479678552",
-      "playParams": { "id": "1479678552", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/ad/d3/10add3af-d24a-e186-71e7-5c4000a4a007/cover.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "f0f0f0",
-        "textColor1": "1c0809",
-        "textColor2": "2b2c2b",
-        "textColor3": "463637",
-        "textColor4": "525352"
-      },
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "IDGAF (feat. Yeat)",
+      "playParams": { "id": "1710685786", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/dd/3a/e1dd3a14-f375-4d3f-46c0-08433d306920/mzaf_15636202624476303832.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/0e/b8/fd0eb895-8e16-caf3-9554-1dca96c6a92c/mzaf_2791420475757262723.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2023-10-06",
+      "url": "https://music.apple.com/bg/album/idgaf-feat-yeat/1710685602?i=1710685786"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1479678552/music-videos",
+        "href": "/v1/catalog/bg/songs/1710685786/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1479678552/artists",
+        "href": "/v1/catalog/bg/songs/1710685786/artists",
         "data": [
           {
-            "id": "artist-1479678552",
+            "id": "artist-1710685786",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1479678552"
+            "href": "/v1/catalog/bg/artists/artist-1710685786"
           }
         ]
       }
     }
   },
   {
+    "id": "1421243212",
     "type": "songs",
-    "id": "1547525311",
-    "href": "/v1/catalog/bg/songs/1547525311",
-    "url": "https://music.apple.com/bg/album/astronaut-in-the-ocean/1547525310?i=1547525311",
+    "href": "/v1/catalog/bg/songs/1421243212",
+    "url": "https://music.apple.com/bg/album/yosemite/1421241217?i=1421243212",
     "attributes": {
-      "name": "Astronaut In The Ocean",
-      "artistName": "Masked Wolf",
-      "albumName": "Astronaut In The Ocean - Single",
-      "genreNames": ["Hip-Hop/Rap", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2019-06-07",
-      "url": "https://music.apple.com/bg/album/astronaut-in-the-ocean/1547525310?i=1547525311",
-      "playParams": { "id": "1547525311", "kind": "song" },
+      "albumName": "ASTROWORLD",
+      "artistName": "Travis Scott",
       "artwork": {
-        "width": 1425,
+        "bgColor": "a4bdd0",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "241105",
+        "textColor2": "2d160c",
+        "textColor3": "3d332d",
+        "textColor4": "453833",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "YOSEMITE",
+      "playParams": { "id": "1421243212", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/8d/e8/d98de86e-b1e8-4262-1741-695c9c4c2d75/mzaf_3681560056178356044.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2018-08-03",
+      "url": "https://music.apple.com/bg/album/yosemite/1421241217?i=1421243212"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1421243212/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1421243212/artists",
+        "data": [
+          {
+            "id": "artist-1421243212",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1421243212"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1440929293",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1440929293",
+    "url": "https://music.apple.com/bg/album/freestyle/1440928174?i=1440929293",
+    "attributes": {
+      "albumName": "Too Hard",
+      "artistName": "Lil Baby",
+      "artwork": {
+        "bgColor": "c9c9c9",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "020202",
+        "textColor2": "181818",
+        "textColor3": "2a2a2a",
+        "textColor4": "3b3b3b",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/e7/aa/93e7aa59-da8b-15bc-2992-5803f70fe8fa/17UM1IM55478.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": false,
+      "name": "Freestyle",
+      "playParams": { "id": "1440929293", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/a8/b9/56a8b916-33f4-013d-e46b-159f930651eb/mzaf_1858541219453911941.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2017-12-01",
+      "url": "https://music.apple.com/bg/album/freestyle/1440928174?i=1440929293"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1440929293/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1440929293/artists",
+        "data": [
+          {
+            "id": "artist-1440929293",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1440929293"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1584281770",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1584281770",
+    "url": "https://music.apple.com/bg/album/way-2-sexy-feat-future-young-thug/1584281467?i=1584281770",
+    "attributes": {
+      "albumName": "Certified Lover Boy",
+      "artistName": "Drake",
+      "artwork": {
+        "bgColor": "ffffff",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "3a2a1e",
+        "textColor2": "39322a",
+        "textColor3": "62544b",
+        "textColor4": "605b55",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Way 2 Sexy (feat. Future & Young Thug)",
+      "playParams": { "id": "1584281770", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/33/35/fa3335c1-d7e8-621b-efb9-89e5f8078b23/mzaf_9960698624681328137.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2021-09-03",
+      "url": "https://music.apple.com/bg/album/way-2-sexy-feat-future-young-thug/1584281467?i=1584281770"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1584281770/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1584281770/artists",
+        "data": [
+          {
+            "id": "artist-1584281770",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1584281770"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1699712651",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1699712651",
+    "url": "https://music.apple.com/bg/album/fe-n-feat-playboi-carti/1699712635?i=1699712651",
+    "attributes": {
+      "albumName": "UTOPIA",
+      "artistName": "Travis Scott",
+      "artwork": {
+        "bgColor": "080609",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "f1e3e8",
+        "textColor2": "f3d0cf",
+        "textColor3": "c2b7bb",
+        "textColor4": "c4a8a7",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "hi-res-lossless", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": false,
+      "name": "FE!N (feat. Playboi Carti)",
+      "playParams": { "id": "1699712651", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/cb/7f/2fcb7f4a-1f8e-5f4c-2b61-b0b62261e4eb/mzaf_6330452069109107949.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2023-07-28",
+      "url": "https://music.apple.com/bg/album/fe-n-feat-playboi-carti/1699712635?i=1699712651"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1699712651/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1699712651/artists",
+        "data": [
+          {
+            "id": "artist-1699712651",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1699712651"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1369380479",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1369380479",
+    "url": "https://music.apple.com/bg/album/lovely/1369379667?i=1369380479",
+    "attributes": {
+      "albumName": "lovely - Single",
+      "artistName": "Billie Eilish & Khalid",
+      "artwork": {
+        "bgColor": "efead5",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "110903",
+        "textColor2": "15100b",
+        "textColor3": "3d362d",
+        "textColor4": "413b33",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/94/d4/2794d4fc-c3e2-2373-3e6c-dd82fd5aefe6/18UMGIM18200.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Pop", "Music"],
+      "isMasteredForItunes": true,
+      "name": "lovely",
+      "playParams": { "id": "1369380479", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/d8/8d/1ed88d91-fb06-b3f2-5391-afd732cc2ff9/mzaf_2368287894118809918.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2018-04-19",
+      "url": "https://music.apple.com/bg/album/lovely/1369379667?i=1369380479"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1369380479/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1369380479/artists",
+        "data": [
+          {
+            "id": "artist-1369380479",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1369380479"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1724494724",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1724494724",
+    "url": "https://music.apple.com/bg/album/redrum/1724494274?i=1724494724",
+    "attributes": {
+      "albumName": "american dream",
+      "artistName": "21 Savage",
+      "artwork": {
+        "bgColor": "44403c",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "f9c895",
+        "textColor2": "eacba4",
+        "textColor3": "d5ad83",
+        "textColor4": "c9af8f",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/82/b9/de82b98d-56a1-e27b-10ea-46964f4585e4/196871714549.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": false,
+      "name": "redrum",
+      "playParams": { "id": "1724494724", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/34/87/383487d9-82ff-fa38-f370-c74c7e9befa0/mzaf_9565876394585315652.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2024-01-10",
+      "url": "https://music.apple.com/bg/album/redrum/1724494274?i=1724494724"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1724494724/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1724494724/artists",
+        "data": [
+          {
+            "id": "artist-1724494724",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1724494724"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1495267448",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1495267448",
+    "url": "https://music.apple.com/bg/album/godzilla-feat-juice-wrld/1495267282?i=1495267448",
+    "attributes": {
+      "albumName": "Music To Be Murdered By",
+      "artistName": "Eminem",
+      "artwork": {
+        "bgColor": "a11025",
+        "hasP3": false,
+        "height": 3600,
+        "textColor1": "f5e7e9",
+        "textColor2": "f6c7a8",
+        "textColor3": "e4bcc2",
+        "textColor4": "e5a38e",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/56/bc/52/56bc527c-14a5-4ece-aeb2-380deba46d5b/20UMGIM02954.rgb.jpg/440x440bb.jpg",
+        "width": 3600
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Godzilla (feat. Juice WRLD)",
+      "playParams": { "id": "1495267448", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7e/47/cf/7e47cf3f-ede7-c32c-0275-7e995a2a0730/mzaf_5862888080371127394.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2020-01-17",
+      "url": "https://music.apple.com/bg/album/godzilla-feat-juice-wrld/1495267282?i=1495267448"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1495267448/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1495267448/artists",
+        "data": [
+          {
+            "id": "artist-1495267448",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1495267448"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1453941332",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1453941332",
+    "url": "https://music.apple.com/bg/album/clout-feat-cardi-b/1453940914?i=1453941332",
+    "attributes": {
+      "albumName": "FATHER OF 4",
+      "artistName": "Offset",
+      "artwork": {
+        "bgColor": "ac985a",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "000000",
+        "textColor2": "110f0c",
+        "textColor3": "221e12",
+        "textColor4": "302b1c",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/20/d1/db/20d1db1f-8822-439e-0933-17ba5d90f370/18UMGIM81691.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Clout (feat. Cardi B)",
+      "playParams": { "id": "1453941332", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/cd/35/6ecd35f5-638b-583f-99d4-adc6004a69d2/mzaf_12088975529443026543.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2019-02-22",
+      "url": "https://music.apple.com/bg/album/clout-feat-cardi-b/1453940914?i=1453941332"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1453941332/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1453941332/artists",
+        "data": [
+          {
+            "id": "artist-1453941332",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1453941332"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1521889285",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1521889285",
+    "url": "https://music.apple.com/bg/album/for-the-night-feat-lil-baby-dababy/1521889004?i=1521889285",
+    "attributes": {
+      "albumName": "Shoot For The Stars Aim For The Moon",
+      "artistName": "Pop Smoke",
+      "artwork": {
+        "bgColor": "000000",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "ededed",
+        "textColor2": "c4c4c4",
+        "textColor3": "bebebe",
+        "textColor4": "9d9d9d",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1c/ed/39/1ced39e0-c34d-52b0-021c-ff967f21f5bf/20UMGIM55833.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "For The Night (feat. Lil Baby & DaBaby)",
+      "playParams": { "id": "1521889285", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/78/c9/ac78c92b-21c2-5d31-4dc1-6f420a3d78b0/mzaf_2871747040274212423.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2020-07-03",
+      "url": "https://music.apple.com/bg/album/for-the-night-feat-lil-baby-dababy/1521889004?i=1521889285"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1521889285/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1521889285/artists",
+        "data": [
+          {
+            "id": "artist-1521889285",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1521889285"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1381553566",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1381553566",
+    "url": "https://music.apple.com/bg/album/top-feat-pierre-bourne/1381553184?i=1381553566",
+    "attributes": {
+      "albumName": "Die Lit",
+      "artistName": "Playboi Carti",
+      "artwork": {
+        "bgColor": "1f1f1f",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "f3f3f3",
+        "textColor2": "ebebeb",
+        "textColor3": "c9c9c9",
+        "textColor4": "c2c2c2",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a2/38/52/a23852d9-21e4-5ac5-6d75-2682fecdda46/18UMGIM26096.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Top (feat. Pi'erre Bourne)",
+      "playParams": { "id": "1381553566", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/b3/f9/a0b3f9b5-72a5-5c31-0115-43a7b22b284a/mzaf_1702342019533696689.plus.aac.p.m4a"
+        }
+      ],
+      "releaseDate": "2018-05-11",
+      "url": "https://music.apple.com/bg/album/top-feat-pierre-bourne/1381553184?i=1381553566"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1381553566/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1381553566/artists",
+        "data": [
+          {
+            "id": "artist-1381553566",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1381553566"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1548850575",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1548850575",
+    "url": "https://music.apple.com/bg/album/top-feat-lil-durk-remix/1548850567?i=1548850575",
+    "attributes": {
+      "albumName": "In The Name Of Gee (Still Most Hated)",
+      "artistName": "Fredo Bang",
+      "artwork": {
+        "bgColor": "282827",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "dddedc",
+        "textColor2": "d6ccb8",
+        "textColor3": "b9bab7",
+        "textColor4": "b3ab9b",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/2c/2e/a42c2e23-0d55-2ee0-617a-97444874ff98/21UMGIM02511.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Top (feat. Lil Durk) [Remix]",
+      "playParams": { "id": "1548850575", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/43/1c/56/431c56f4-1ae6-b590-eadf-4e355c0bf0d5/mzaf_11198919178958259623.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2021-02-12",
+      "url": "https://music.apple.com/bg/album/top-feat-lil-durk-remix/1548850567?i=1548850575"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1548850575/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1548850575/artists",
+        "data": [
+          {
+            "id": "artist-1548850575",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1548850575"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1499378597",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1499378597",
+    "url": "https://music.apple.com/bg/album/heartless/1499378108?i=1499378597",
+    "attributes": {
+      "albumName": "After Hours",
+      "artistName": "The Weeknd",
+      "artwork": {
+        "bgColor": "161211",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "b9dabe",
+        "textColor2": "b3c397",
+        "textColor3": "99b29c",
+        "textColor4": "939f7c",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["R&B/Soul", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Heartless",
+      "playParams": { "id": "1499378597", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/7b/1f/657b1fc8-bff7-bc35-605a-1f33213875a0/mzaf_14113008029297332986.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2019-11-27",
+      "url": "https://music.apple.com/bg/album/heartless/1499378108?i=1499378597"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1499378597/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1499378597/artists",
+        "data": [
+          {
+            "id": "artist-1499378597",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1499378597"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "986011623",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/986011623",
+    "url": "https://music.apple.com/bg/album/check/986011611?i=986011623",
+    "attributes": {
+      "albumName": "Barter 6",
+      "artistName": "Young Thug",
+      "artwork": {
+        "bgColor": "1c171d",
+        "hasP3": false,
         "height": 1425,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/83/eb/59/83eb59d9-629d-5f60-7a6b-a2cb0b70ebd1/075679793102.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "bed8e1",
-        "textColor1": "20262c",
-        "textColor2": "2d353a",
-        "textColor3": "404950",
-        "textColor4": "4a565c"
+        "textColor1": "f59259",
+        "textColor2": "fa7140",
+        "textColor3": "ca794d",
+        "textColor4": "ce5f39",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7f/ab/ba/7fabbae7-d92a-f59e-352b-7b9d1e960feb/075679924872.jpg/440x440bb.jpg",
+        "width": 1425
       },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/4f/29/914f2972-365b-2185-628a-62a9eb84236a/mzaf_2677679802916820942.plus.aac.p.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1547525311/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1547525311/artists",
-        "data": [
-          {
-            "id": "artist-1547525311",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1547525311"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1739659142",
-    "href": "/v1/catalog/bg/songs/1739659142",
-    "url": "https://music.apple.com/bg/album/birds-of-a-feather/1739659134?i=1739659142",
-    "attributes": {
-      "name": "BIRDS OF A FEATHER",
-      "artistName": "Billie Eilish",
-      "albumName": "HIT ME HARD AND SOFT",
-      "genreNames": ["Alternative", "Music"],
       "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2024-05-17",
-      "url": "https://music.apple.com/bg/album/birds-of-a-feather/1739659134?i=1739659142",
-      "playParams": { "id": "1739659142", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "131824",
-        "textColor1": "cdd2bf",
-        "textColor2": "c7c7b7",
-        "textColor3": "a8ada0",
-        "textColor4": "a3a49a"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/ff/37/06ff37b5-02b3-af0c-2a75-8d8bb11ce3fc/mzaf_706563222211952879.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1739659142/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1739659142/artists",
-        "data": [
-          {
-            "id": "artist-1739659142",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1739659142"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1411629089",
-    "href": "/v1/catalog/bg/songs/1411629089",
-    "url": "https://music.apple.com/bg/album/thunder/1411625594?i=1411629089",
-    "attributes": {
-      "name": "Thunder",
-      "artistName": "Imagine Dragons",
-      "albumName": "Evolve",
-      "genreNames": ["Alternative", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2017-04-27",
-      "url": "https://music.apple.com/bg/album/thunder/1411625594?i=1411629089",
-      "playParams": { "id": "1411629089", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "0a1919",
-        "textColor1": "c8d1d1",
-        "textColor2": "7f91df",
-        "textColor3": "a2acac",
-        "textColor4": "6779b7"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/51/d7/55/51d75514-5e1d-ed01-52eb-76b30f7c8290/mzaf_16398552477236041846.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1411629089/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1411629089/artists",
-        "data": [
-          {
-            "id": "artist-1411629089",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1411629089"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1643168566",
-    "href": "/v1/catalog/bg/songs/1643168566",
-    "url": "https://music.apple.com/bg/album/unholy/1643168265?i=1643168566",
-    "attributes": {
-      "name": "Unholy",
-      "artistName": "Sam Smith & Kim Petras",
-      "albumName": "Unholy - Single",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2022-09-22",
-      "url": "https://music.apple.com/bg/album/unholy/1643168265?i=1643168566",
-      "playParams": { "id": "1643168566", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a4/0c/bd/a40cbd9d-bb38-8164-cd30-e107c8c7bb0e/22UMGIM83430.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "161514",
-        "textColor1": "dad2c9",
-        "textColor2": "d0c9c0",
-        "textColor3": "b2aca5",
-        "textColor4": "aba59d"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/b3/03/44b30336-3a22-74b7-ae9c-c04c1b6a4a54/mzaf_17448079084694212663.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1643168566/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1643168566/artists",
-        "data": [
-          {
-            "id": "artist-1643168566",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1643168566"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1647624356",
-    "href": "/v1/catalog/bg/songs/1647624356",
-    "url": "https://music.apple.com/bg/album/escapism/1647623993?i=1647624356",
-    "attributes": {
-      "name": "Escapism.",
-      "artistName": "RAYE & 070 Shake",
-      "albumName": "My 21st Century Blues",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2022-10-14",
-      "url": "https://music.apple.com/bg/album/escapism/1647623993?i=1647624356",
-      "playParams": { "id": "1647624356", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/90/93/08/909308e3-94ca-dbf8-ebc7-0177bae4b9ad/197186999980.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "f4f7fc",
-        "textColor1": "191b1d",
-        "textColor2": "24282b",
-        "textColor3": "45474a",
-        "textColor4": "4e5154"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/61/65/42616507-8d0c-a780-0780-8d28105f15c3/mzaf_11945061609107858143.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1647624356/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1647624356/artists",
-        "data": [
-          {
-            "id": "artist-1647624356",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1647624356"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1640751223",
-    "href": "/v1/catalog/bg/songs/1640751223",
-    "url": "https://music.apple.com/bg/album/im-good-blue/1640751219?i=1640751223",
-    "attributes": {
-      "name": "I'm Good (Blue)",
-      "artistName": "David Guetta & Bebe Rexha",
-      "albumName": "I'm Good (Blue) - Single",
-      "genreNames": ["Dance", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2022-08-26",
-      "url": "https://music.apple.com/bg/album/im-good-blue/1640751219?i=1640751223",
-      "playParams": { "id": "1640751223", "kind": "song" },
-      "artwork": {
-        "width": 4000,
-        "height": 4000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/10/07/f9/1007f9e3-9815-38a2-66ae-c1952b1688e9/5054197324338.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "51b8fe",
-        "textColor1": "040608",
-        "textColor2": "161b1f",
-        "textColor3": "142939",
-        "textColor4": "223a4b"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/31/5b/be/315bbebd-02df-b244-10a8-eb23386f9675/mzaf_12083215036164425590.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1640751223/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1640751223/artists",
-        "data": [
-          {
-            "id": "artist-1640751223",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1640751223"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1617280597",
-    "href": "/v1/catalog/bg/songs/1617280597",
-    "url": "https://music.apple.com/bg/album/ferrari/1617280385?i=1617280597",
-    "attributes": {
-      "name": "Ferrari",
-      "artistName": "James Hype & Miggy Dela Rosa",
-      "albumName": "Ferrari - Single",
-      "genreNames": ["Dance", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2022-03-14",
-      "url": "https://music.apple.com/bg/album/ferrari/1617280385?i=1617280597",
-      "playParams": { "id": "1617280597", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a9/02/ca/a902ca66-530d-d678-077c-17d9da7533ef/22UMGIM36635.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "0a0a0a",
-        "textColor1": "f2f2f2",
-        "textColor2": "f33f39",
-        "textColor3": "c4c4c4",
-        "textColor4": "c43430"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/31/ef/f5/31eff5ef-2eab-c578-135c-5e81597ab6a3/mzaf_5354056200771534213.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1617280597/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1617280597/artists",
-        "data": [
-          {
-            "id": "artist-1617280597",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1617280597"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1615585008",
-    "href": "/v1/catalog/bg/songs/1615585008",
-    "url": "https://music.apple.com/bg/album/as-it-was/1615584999?i=1615585008",
-    "attributes": {
-      "name": "As It Was",
-      "artistName": "Harry Styles",
-      "albumName": "Harry's House",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2022-03-31",
-      "url": "https://music.apple.com/bg/album/as-it-was/1615584999?i=1615585008",
-      "playParams": { "id": "1615585008", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "d5c4aa",
-        "textColor1": "331c14",
-        "textColor2": "3c2a1d",
-        "textColor3": "533d32",
-        "textColor4": "5a4939"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/10/16/67101606-3869-ca44-6c03-e13d6322cb51/mzaf_6775853006101070615.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1615585008/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1615585008/artists",
-        "data": [
-          {
-            "id": "artist-1615585008",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1615585008"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1450330687",
-    "href": "/v1/catalog/bg/songs/1450330687",
-    "url": "https://music.apple.com/bg/album/break-up-with-your-girlfriend-im-bored/1450330588?i=1450330687",
-    "attributes": {
-      "name": "break up with your girlfriend, i'm bored",
-      "artistName": "Ariana Grande",
-      "albumName": "thank u, next",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2019-02-08",
-      "url": "https://music.apple.com/bg/album/break-up-with-your-girlfriend-im-bored/1450330588?i=1450330687",
-      "playParams": { "id": "1450330687", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/06/d3/e406d3d8-2507-e585-c919-60bc5446985c/19UMGIM03689.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "ab93a0",
-        "textColor1": "0e110f",
-        "textColor2": "181c1a",
-        "textColor3": "2d2b2c",
-        "textColor4": "353435"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/34/97/bf/3497bf44-2324-e638-787a-65d9aa92ef02/mzaf_3333082993272400224.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1450330687/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1450330687/artists",
-        "data": [
-          {
-            "id": "artist-1450330687",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1450330687"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1570734515",
-    "href": "/v1/catalog/bg/songs/1570734515",
-    "url": "https://music.apple.com/bg/album/%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%BE/1570734094?i=1570734515",
-    "attributes": {
-      "name": "Детство",
-      "artistName": "Rauf & Faik",
-      "albumName": "Я люблю тебя",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
-      "isMasteredForItunes": false,
-      "releaseDate": "2018-09-28",
-      "url": "https://music.apple.com/bg/album/%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%BE/1570734094?i=1570734515",
-      "playParams": { "id": "1570734515", "kind": "song" },
-      "artwork": {
-        "width": 1440,
-        "height": 1440,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/fa/32/55fa323a-707b-9243-871a-4e0952c3ec20/3615937885049.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "202020",
-        "textColor1": "f5f5f5",
-        "textColor2": "dddddd",
-        "textColor3": "cacaca",
-        "textColor4": "b7b7b7"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/e3/87/24e387d8-ab2f-83d4-d787-d19772fbe395/mzaf_4363619563491947392.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1570734515/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1570734515/artists",
-        "data": [
-          {
-            "id": "artist-1570734515",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1570734515"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1373517313",
-    "href": "/v1/catalog/bg/songs/1373517313",
-    "url": "https://music.apple.com/bg/album/better-now/1373516902?i=1373517313",
-    "attributes": {
-      "name": "Better Now",
-      "artistName": "Post Malone",
-      "albumName": "beerbongs & bentleys",
       "genreNames": ["Hip-Hop/Rap", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
       "isMasteredForItunes": true,
-      "releaseDate": "2018-04-27",
-      "url": "https://music.apple.com/bg/album/better-now/1373516902?i=1373517313",
-      "playParams": { "id": "1373517313", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7e/3c/4e/7e3c4ef6-daa7-cc10-57d0-45f5a562eaf5/18UMGIM22101.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "f0eef8",
-        "textColor1": "161616",
-        "textColor2": "302f0d",
-        "textColor3": "424143",
-        "textColor4": "56553c"
-      },
+      "name": "Check",
+      "playParams": { "id": "986011623", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/be/00/efbe009f-6d27-67c5-4f6a-ecce58c0dda1/mzaf_2263401851123971156.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/47/7e/4f477ea3-4eb1-8a2c-b0a8-2b201638b2aa/mzaf_16068000113184716457.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2015-04-01",
+      "url": "https://music.apple.com/bg/album/check/986011611?i=986011623"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1373517313/music-videos",
+        "href": "/v1/catalog/bg/songs/986011623/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1373517313/artists",
+        "href": "/v1/catalog/bg/songs/986011623/artists",
         "data": [
           {
-            "id": "artist-1373517313",
+            "id": "artist-986011623",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1373517313"
+            "href": "/v1/catalog/bg/artists/artist-986011623"
           }
         ]
       }
     }
   },
   {
+    "id": "1443677211",
     "type": "songs",
+    "href": "/v1/catalog/bg/songs/1443677211",
+    "url": "https://music.apple.com/bg/album/pure-cocaine/1443676945?i=1443677211",
+    "attributes": {
+      "albumName": "Street Gossip",
+      "artistName": "Lil Baby",
+      "artwork": {
+        "bgColor": "010101",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "d6cebf",
+        "textColor2": "c5bdb1",
+        "textColor3": "aba599",
+        "textColor4": "9e978d",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/df/b1/44/dfb1447b-79ee-f7c3-8e22-374f82535153/18UMGIM77804.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Pure Cocaine",
+      "playParams": { "id": "1443677211", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/87/88/a08788ee-f7f2-cfb4-9ca0-191691a94512/mzaf_16806846865761591178.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2018-11-30",
+      "url": "https://music.apple.com/bg/album/pure-cocaine/1443676945?i=1443677211"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1443677211/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1443677211/artists",
+        "data": [
+          {
+            "id": "artist-1443677211",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1443677211"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1511793607",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1511793607",
+    "url": "https://music.apple.com/bg/album/martin-gina/1511793475?i=1511793607",
+    "attributes": {
+      "albumName": "THE GOAT",
+      "artistName": "Polo G",
+      "artwork": {
+        "bgColor": "0f0f0f",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "e8e3e3",
+        "textColor2": "d6aea7",
+        "textColor3": "bcb9b9",
+        "textColor4": "ae8e88",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/89/c8/a689c864-9a82-0c8f-e37a-21ead3a29ac6/886448463481.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music", "Pop"],
+      "isMasteredForItunes": false,
+      "name": "Martin & Gina",
+      "playParams": { "id": "1511793607", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/b2/a4/92b2a474-86b8-8e03-e474-1081e8543211/mzaf_11808379545918554724.plus.aac.p.m4a"
+        }
+      ],
+      "releaseDate": "2020-05-15",
+      "url": "https://music.apple.com/bg/album/martin-gina/1511793475?i=1511793607"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1511793607/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1511793607/artists",
+        "data": [
+          {
+            "id": "artist-1511793607",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1511793607"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1475546088",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1475546088",
+    "url": "https://music.apple.com/bg/album/dance-monkey/1475546087?i=1475546088",
+    "attributes": {
+      "albumName": "Dance Monkey - Single",
+      "artistName": "Tones And I",
+      "artwork": {
+        "bgColor": "030c11",
+        "hasP3": false,
+        "height": 1425,
+        "textColor1": "d7d9dc",
+        "textColor2": "ed8a33",
+        "textColor3": "acb0b3",
+        "textColor4": "be702c",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d2/3a/b8/d23ab839-660d-ef93-2ccb-d0825fc3e8f5/075679838872.jpg/440x440bb.jpg",
+        "width": 1425
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Alternative", "Music"],
+      "isMasteredForItunes": false,
+      "name": "Dance Monkey",
+      "playParams": { "id": "1475546088", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/72/4f/45724fc8-2e85-d5b1-dda0-775958e9b692/mzaf_3383675994471968039.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2019-05-10",
+      "url": "https://music.apple.com/bg/album/dance-monkey/1475546087?i=1475546088"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1475546088/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1475546088/artists",
+        "data": [
+          {
+            "id": "artist-1475546088",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1475546088"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "386153478",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/386153478",
+    "url": "https://music.apple.com/bg/album/yeah-feat-lil-jon-ludacris/386153476?i=386153478",
+    "attributes": {
+      "albumName": "Confessions (Expanded Edition)",
+      "artistName": "USHER",
+      "artwork": {
+        "bgColor": "110b0a",
+        "hasP3": false,
+        "height": 601,
+        "textColor1": "e1b495",
+        "textColor2": "ce9e82",
+        "textColor3": "b79279",
+        "textColor4": "a8816a",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/440x440bb.jpg",
+        "width": 600
+      },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["R&B/Soul", "Music", "Pop", "Neo-Soul"],
+      "isMasteredForItunes": false,
+      "name": "Yeah! (feat. Lil Jon & Ludacris)",
+      "playParams": { "id": "386153478", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ae/74/84/ae74846b-b9bb-4460-662d-d7c8aa2edd06/mzaf_10219585068951496600.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2004-01-10",
+      "url": "https://music.apple.com/bg/album/yeah-feat-lil-jon-ludacris/386153476?i=386153478"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/386153478/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/386153478/artists",
+        "data": [
+          {
+            "id": "artist-386153478",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-386153478"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "1538003644",
+    "type": "songs",
     "href": "/v1/catalog/bg/songs/1538003644",
     "url": "https://music.apple.com/bg/album/physical/1538003494?i=1538003644",
     "attributes": {
-      "name": "Physical",
-      "artistName": "Dua Lipa",
       "albumName": "Future Nostalgia",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2020-02-01",
-      "url": "https://music.apple.com/bg/album/physical/1538003494?i=1538003644",
-      "playParams": { "id": "1538003644", "kind": "song" },
+      "artistName": "Dua Lipa",
       "artwork": {
-        "width": 4000,
-        "height": 4000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/440x440bb.jpg",
-        "hasP3": false,
         "bgColor": "050401",
+        "hasP3": false,
+        "height": 4000,
         "textColor1": "86c5ec",
         "textColor2": "70bbe6",
         "textColor3": "6c9fbd",
-        "textColor4": "5b96b8"
+        "textColor4": "5b96b8",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/440x440bb.jpg",
+        "width": 4000
       },
+      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
+      "genreNames": ["Pop", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Physical",
+      "playParams": { "id": "1538003644", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4f/57/ff/4f57ffde-4bd1-dc9e-442c-7a0f743b4244/mzaf_1050012675297617949.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/45/78/874578c1-d683-d1e6-00e4-08848279fa3a/mzaf_16926942761677102099.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2020-02-01",
+      "url": "https://music.apple.com/bg/album/physical/1538003494?i=1538003644"
     },
     "relationships": {
       "music-videos": {
@@ -882,343 +1078,147 @@
     }
   },
   {
+    "id": "1271423854",
     "type": "songs",
-    "id": "1411628148",
-    "href": "/v1/catalog/bg/songs/1411628148",
-    "url": "https://music.apple.com/bg/album/whatever-it-takes/1411625594?i=1411628148",
+    "href": "/v1/catalog/bg/songs/1271423854",
+    "url": "https://music.apple.com/bg/album/i-get-the-bag-feat-migos/1271423847?i=1271423854",
     "attributes": {
-      "name": "Whatever It Takes",
-      "artistName": "Imagine Dragons",
-      "albumName": "Evolve",
-      "genreNames": ["Alternative", "Music"],
+      "albumName": "Mr. Davis",
+      "artistName": "Gucci Mane",
+      "artwork": {
+        "bgColor": "010101",
+        "hasP3": false,
+        "height": 1425,
+        "textColor1": "f4a501",
+        "textColor2": "d48f03",
+        "textColor3": "c38401",
+        "textColor4": "aa7203",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/75/3c/e2753c0d-2d34-8304-9c42-05d374acb7dd/075679896711.jpg/440x440bb.jpg",
+        "width": 1425
+      },
       "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2017-05-09",
-      "url": "https://music.apple.com/bg/album/whatever-it-takes/1411625594?i=1411628148",
-      "playParams": { "id": "1411628148", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "0a1919",
-        "textColor1": "c8d1d1",
-        "textColor2": "7f91df",
-        "textColor3": "a2acac",
-        "textColor4": "6779b7"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e0/61/7b/e0617bcd-6c32-b984-f100-95b94259557f/mzaf_7118172328545116645.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1411628148/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1411628148/artists",
-        "data": [
-          {
-            "id": "artist-1411628148",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1411628148"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1727813561",
-    "href": "/v1/catalog/bg/songs/1727813561",
-    "url": "https://music.apple.com/bg/album/gata-only/1727813560?i=1727813561",
-    "attributes": {
-      "name": "Gata Only",
-      "artistName": "FloyyMenor & Cris MJ",
-      "albumName": "Gata Only - Single",
-      "genreNames": ["Latin", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music"],
       "isMasteredForItunes": false,
-      "releaseDate": "2024-02-02",
-      "url": "https://music.apple.com/bg/album/gata-only/1727813560?i=1727813561",
-      "playParams": { "id": "1727813561", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ca/4e/0f/ca4e0f11-2cbc-7aec-b2e4-53f5fac7cb0e/198309012715-copy-6dfc57c0.png/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "1e1e1e",
-        "textColor1": "fefefe",
-        "textColor2": "dcd5d5",
-        "textColor3": "d1d1d1",
-        "textColor4": "b6b0b0"
-      },
+      "name": "I Get the Bag (feat. Migos)",
+      "playParams": { "id": "1271423854", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/17/21/8c/17218cc9-83de-cd9a-6efc-141cd28492ca/mzaf_14294917035804339986.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/44/0d/ad440d97-80f9-1140-bb7c-00784ce5d0af/mzaf_551445717124817610.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2017-08-18",
+      "url": "https://music.apple.com/bg/album/i-get-the-bag-feat-migos/1271423847?i=1271423854"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1727813561/music-videos",
+        "href": "/v1/catalog/bg/songs/1271423854/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1727813561/artists",
+        "href": "/v1/catalog/bg/songs/1271423854/artists",
         "data": [
           {
-            "id": "artist-1727813561",
+            "id": "artist-1271423854",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1727813561"
+            "href": "/v1/catalog/bg/artists/artist-1271423854"
           }
         ]
       }
     }
   },
   {
+    "id": "1440799199",
     "type": "songs",
-    "id": "1693891139",
-    "href": "/v1/catalog/bg/songs/1693891139",
-    "url": "https://music.apple.com/bg/album/one-of-the-girls/1693891133?i=1693891139",
+    "href": "/v1/catalog/bg/songs/1440799199",
+    "url": "https://music.apple.com/bg/album/how-we-do-feat-50-cent/1440799117?i=1440799199",
     "attributes": {
-      "name": "One Of The Girls",
-      "artistName": "The Weeknd, JENNIE & Lily Rose Depp",
-      "albumName": "The Idol Episode 4 (Music from the HBO Original Series) - Single",
-      "genreNames": ["Soundtrack", "Music"],
-      "audioTraits": ["atmos", "hi-res-lossless", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2023-06-23",
-      "url": "https://music.apple.com/bg/album/one-of-the-girls/1693891133?i=1693891139",
-      "playParams": { "id": "1693891139", "kind": "song" },
+      "albumName": "The Documentary",
+      "artistName": "The Game",
       "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/db/28/e7/db28e7c3-f53a-76c8-eaa4-d92a22e4f160/23UMGIM72115.rgb.jpg/440x440bb.jpg",
+        "bgColor": "f3f9fd",
         "hasP3": false,
-        "bgColor": "25160f",
-        "textColor1": "b5e7e1",
-        "textColor2": "a6dbd6",
-        "textColor3": "98bdb7",
-        "textColor4": "8cb4ae"
+        "height": 1435,
+        "textColor1": "000906",
+        "textColor2": "0b100e",
+        "textColor3": "303938",
+        "textColor4": "393e3e",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/c8/a7/53c8a79b-ee31-dcf3-9880-fdb3f498794b/00602498641439.rgb.jpg/440x440bb.jpg",
+        "width": 1447
       },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/44/de/1844de8a-6eba-7abf-c7ec-06be519c3543/mzaf_9630617270548907373.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1693891139/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1693891139/artists",
-        "data": [
-          {
-            "id": "artist-1693891139",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1693891139"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1476727864",
-    "href": "/v1/catalog/bg/songs/1476727864",
-    "url": "https://music.apple.com/bg/album/poker-face/1476727669?i=1476727864",
-    "attributes": {
-      "name": "Poker Face",
-      "artistName": "Lady Gaga",
-      "albumName": "The Fame Monster (Deluxe Edition)",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["atmos", "lossless", "lossy-stereo", "spatial"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2008-08-19",
-      "url": "https://music.apple.com/bg/album/poker-face/1476727669?i=1476727864",
-      "playParams": { "id": "1476727864", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "2f2f2e",
-        "textColor1": "eeeff0",
-        "textColor2": "cccdcd",
-        "textColor3": "c8c9c9",
-        "textColor4": "acadad"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/b5/d4/2db5d401-8a95-95f1-c057-d8de46576720/mzaf_2082891897914068497.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1476727864/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1476727864/artists",
-        "data": [
-          {
-            "id": "artist-1476727864",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1476727864"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1108212668",
-    "href": "/v1/catalog/bg/songs/1108212668",
-    "url": "https://music.apple.com/bg/album/this-is-what-you-came-for/1108212521?i=1108212668",
-    "attributes": {
-      "name": "This Is What You Came For",
-      "artistName": "Calvin Harris & Rihanna",
-      "albumName": "This Is What You Came For - Single",
-      "genreNames": ["Dance", "Music"],
       "audioTraits": ["lossless", "lossy-stereo"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2016-04-29",
-      "url": "https://music.apple.com/bg/album/this-is-what-you-came-for/1108212521?i=1108212668",
-      "playParams": { "id": "1108212668", "kind": "song" },
-      "artwork": {
-        "width": 1500,
-        "height": 1500,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/59/57/a6/5957a66e-fb10-4065-5739-7c54236339e4/886445857290.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "020509",
-        "textColor1": "60a1ed",
-        "textColor2": "4694ef",
-        "textColor3": "4d82bf",
-        "textColor4": "3878c1"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e6/4c/8a/e64c8a6b-49e1-6ead-4f22-7d81dea2768e/mzaf_6134508263477305848.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1108212668/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1108212668/artists",
-        "data": [
-          {
-            "id": "artist-1108212668",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1108212668"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1773452221",
-    "href": "/v1/catalog/bg/songs/1773452221",
-    "url": "https://music.apple.com/bg/album/apt/1773452219?i=1773452221",
-    "attributes": {
-      "name": "APT.",
-      "artistName": "ROSÉ & Bruno Mars",
-      "albumName": "APT. - Single",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
-      "isMasteredForItunes": true,
-      "releaseDate": "2024-10-17",
-      "url": "https://music.apple.com/bg/album/apt/1773452219?i=1773452221",
-      "playParams": { "id": "1773452221", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "f7698d",
-        "textColor1": "111010",
-        "textColor2": "26161a",
-        "textColor3": "3f2129",
-        "textColor4": "502631"
-      },
-      "previews": [
-        {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/8a/a1/228aa1a0-cbfd-ac14-ae99-09ca59bcc80b/mzaf_18369499218683341680.plus.aac.ep.m4a"
-        }
-      ]
-    },
-    "relationships": {
-      "music-videos": {
-        "href": "/v1/catalog/bg/songs/1773452221/music-videos",
-        "data": []
-      },
-      "artists": {
-        "href": "/v1/catalog/bg/songs/1773452221/artists",
-        "data": [
-          {
-            "id": "artist-1773452221",
-            "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1773452221"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "type": "songs",
-    "id": "1444108518",
-    "href": "/v1/catalog/bg/songs/1444108518",
-    "url": "https://music.apple.com/bg/album/life/1444108516?i=1444108518",
-    "attributes": {
-      "name": "Life",
-      "artistName": "Zivert",
-      "albumName": "Life - Single",
-      "genreNames": ["Pop", "Music"],
-      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Hip-Hop/Rap", "Music", "Gangsta Rap", "West Coast Rap", "Hardcore Rap", "Rock"],
       "isMasteredForItunes": false,
-      "releaseDate": "2018-11-30",
-      "url": "https://music.apple.com/bg/album/life/1444108516?i=1444108518",
-      "playParams": { "id": "1444108518", "kind": "song" },
-      "artwork": {
-        "width": 3000,
-        "height": 3000,
-        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/46/ac/5046ac40-d83b-7682-d85e-01fa40a7bc69/cover.jpg/440x440bb.jpg",
-        "hasP3": false,
-        "bgColor": "262b66",
-        "textColor1": "dfd5e8",
-        "textColor2": "c7bfdd",
-        "textColor3": "bab3ce",
-        "textColor4": "a6a2c5"
-      },
+      "name": "How We Do (feat. 50 Cent)",
+      "playParams": { "id": "1440799199", "kind": "song" },
       "previews": [
         {
-          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/5f/5c/ec5f5cd4-8dec-994e-25b2-cdc99ad41cb1/mzaf_18100290487626902467.plus.aac.ep.m4a"
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/e2/0e/85e20e31-2258-b330-2b95-e5a38887e790/mzaf_6214472235008100668.plus.aac.ep.m4a"
         }
-      ]
+      ],
+      "releaseDate": "2004-11-23",
+      "url": "https://music.apple.com/bg/album/how-we-do-feat-50-cent/1440799117?i=1440799199"
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1444108518/music-videos",
+        "href": "/v1/catalog/bg/songs/1440799199/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1444108518/artists",
+        "href": "/v1/catalog/bg/songs/1440799199/artists",
         "data": [
           {
-            "id": "artist-1444108518",
+            "id": "artist-1440799199",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1444108518"
+            "href": "/v1/catalog/bg/artists/artist-1440799199"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1474669071",
+    "type": "songs",
+    "href": "/v1/catalog/bg/songs/1474669071",
+    "url": "https://music.apple.com/bg/album/doin-time/1474669063?i=1474669071",
+    "attributes": {
+      "albumName": "Norman Fucking Rockwell!",
+      "artistName": "Lana Del Rey",
+      "artwork": {
+        "bgColor": "7e9da6",
+        "hasP3": false,
+        "height": 3000,
+        "textColor1": "0d0706",
+        "textColor2": "170e0b",
+        "textColor3": "242526",
+        "textColor4": "2b2a2a",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c6/5f/b9/c65fb9eb-da2f-89a9-b640-2fff1fc3a660/19UMGIM61350.rgb.jpg/440x440bb.jpg",
+        "width": 3000
+      },
+      "audioTraits": ["lossless", "lossy-stereo"],
+      "genreNames": ["Pop", "Music"],
+      "isMasteredForItunes": true,
+      "name": "Doin' Time",
+      "playParams": { "id": "1474669071", "kind": "song" },
+      "previews": [
+        {
+          "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d8/7b/af/d87bafba-d27d-a46c-5848-be2f28fbfb7a/mzaf_12510193651218874573.plus.aac.ep.m4a"
+        }
+      ],
+      "releaseDate": "2019-05-17",
+      "url": "https://music.apple.com/bg/album/doin-time/1474669063?i=1474669071"
+    },
+    "relationships": {
+      "music-videos": {
+        "href": "/v1/catalog/bg/songs/1474669071/music-videos",
+        "data": []
+      },
+      "artists": {
+        "href": "/v1/catalog/bg/songs/1474669071/artists",
+        "data": [
+          {
+            "id": "artist-1474669071",
+            "type": "artists",
+            "href": "/v1/catalog/bg/artists/artist-1474669071"
           }
         ]
       }

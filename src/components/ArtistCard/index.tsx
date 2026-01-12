@@ -20,7 +20,9 @@ const ArtistCard: React.FC<Props> = ({ track }) => {
         alt="artist"
         className="w-full h-auto rounded-lg"
       />
-      <p className="mt-4 font-semibold text-lg truncate text-white">{track?.attributes?.name}</p>
+      <p className="mt-4 font-semibold text-lg truncate text-white">
+        {track?.attributes?.artistName}
+      </p>
     </div>
   );
 };
