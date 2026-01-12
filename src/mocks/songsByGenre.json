@@ -33,16 +33,16 @@
     },
     "relationships": {
       "music-videos": {
-        "href": "/v1/catalog/bg/songs/1624932774/music-videos",
+        "href": "/v1/catalog/bg/songs/1625812861/music-videos",
         "data": []
       },
       "artists": {
-        "href": "/v1/catalog/bg/songs/1624932774/artists",
+        "href": "/v1/catalog/bg/songs/1625812861/artists",
         "data": [
           {
-            "id": "artist-1624932774",
+            "id": "1625812861",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1624932774"
+            "href": "/v1/catalog/bg/artists/1625812861"
           }
         ]
       }
@@ -89,9 +89,9 @@
         "href": "/v1/catalog/bg/songs/1193701392/artists",
         "data": [
           {
-            "id": "artist-1193701392",
+            "id": "1193701392",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1193701392"
+            "href": "/v1/catalog/bg/artists/1193701392"
           }
         ]
       }
@@ -138,9 +138,9 @@
         "href": "/v1/catalog/bg/songs/1487502476/artists",
         "data": [
           {
-            "id": "artist-1487502476",
+            "id": "1487502476",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1487502476"
+            "href": "/v1/catalog/bg/artists/1487502476"
           }
         ]
       }
@@ -187,9 +187,9 @@
         "href": "/v1/catalog/bg/songs/1418213269/artists",
         "data": [
           {
-            "id": "artist-1418213269",
+            "id": "1418213269",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1418213269"
+            "href": "/v1/catalog/bg/artists/1418213269"
           }
         ]
       }
@@ -236,9 +236,9 @@
         "href": "/v1/catalog/bg/songs/1440934115/artists",
         "data": [
           {
-            "id": "artist-1440934115",
+            "id": "1440934115",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1440934115"
+            "href": "/v1/catalog/bg/artists/1440934115"
           }
         ]
       }
@@ -285,9 +285,9 @@
         "href": "/v1/catalog/bg/songs/1479678552/artists",
         "data": [
           {
-            "id": "artist-1479678552",
+            "id": "1479678552",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1479678552"
+            "href": "/v1/catalog/bg/artists/1479678552"
           }
         ]
       }
@@ -334,9 +334,9 @@
         "href": "/v1/catalog/bg/songs/1547525311/artists",
         "data": [
           {
-            "id": "artist-1547525311",
+            "id": "1547525311",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1547525311"
+            "href": "/v1/catalog/bg/artists/1547525311"
           }
         ]
       }
@@ -383,9 +383,9 @@
         "href": "/v1/catalog/bg/songs/1739659142/artists",
         "data": [
           {
-            "id": "artist-1739659142",
+            "id": "1739659142",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1739659142"
+            "href": "/v1/catalog/bg/artists/1739659142"
           }
         ]
       }
@@ -432,9 +432,9 @@
         "href": "/v1/catalog/bg/songs/1411629089/artists",
         "data": [
           {
-            "id": "artist-1411629089",
+            "id": "1411629089",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1411629089"
+            "href": "/v1/catalog/bg/artists/1411629089"
           }
         ]
       }
@@ -481,9 +481,9 @@
         "href": "/v1/catalog/bg/songs/1643168566/artists",
         "data": [
           {
-            "id": "artist-1643168566",
+            "id": "1643168566",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1643168566"
+            "href": "/v1/catalog/bg/artists/1643168566"
           }
         ]
       }
@@ -530,9 +530,9 @@
         "href": "/v1/catalog/bg/songs/1647624356/artists",
         "data": [
           {
-            "id": "artist-1647624356",
+            "id": "1647624356",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1647624356"
+            "href": "/v1/catalog/bg/artists/1647624356"
           }
         ]
       }
@@ -579,9 +579,9 @@
         "href": "/v1/catalog/bg/songs/1640751223/artists",
         "data": [
           {
-            "id": "artist-1640751223",
+            "id": "1640751223",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1640751223"
+            "href": "/v1/catalog/bg/artists/1640751223"
           }
         ]
       }
@@ -628,9 +628,9 @@
         "href": "/v1/catalog/bg/songs/1617280597/artists",
         "data": [
           {
-            "id": "artist-1617280597",
+            "id": "1617280597",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1617280597"
+            "href": "/v1/catalog/bg/artists/1617280597"
           }
         ]
       }
@@ -677,9 +677,9 @@
         "href": "/v1/catalog/bg/songs/1615585008/artists",
         "data": [
           {
-            "id": "artist-1615585008",
+            "id": "1615585008",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1615585008"
+            "href": "/v1/catalog/bg/artists/1615585008"
           }
         ]
       }
@@ -726,9 +726,9 @@
         "href": "/v1/catalog/bg/songs/1450330687/artists",
         "data": [
           {
-            "id": "artist-1450330687",
+            "id": "1450330687",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1450330687"
+            "href": "/v1/catalog/bg/artists/1450330687"
           }
         ]
       }
@@ -775,9 +775,9 @@
         "href": "/v1/catalog/bg/songs/1570734515/artists",
         "data": [
           {
-            "id": "artist-1570734515",
+            "id": "1570734515",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1570734515"
+            "href": "/v1/catalog/bg/artists/1570734515"
           }
         ]
       }
@@ -824,9 +824,9 @@
         "href": "/v1/catalog/bg/songs/1373517313/artists",
         "data": [
           {
-            "id": "artist-1373517313",
+            "id": "1373517313",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1373517313"
+            "href": "/v1/catalog/bg/artists/1373517313"
           }
         ]
       }
@@ -873,9 +873,9 @@
         "href": "/v1/catalog/bg/songs/1538003644/artists",
         "data": [
           {
-            "id": "artist-1538003644",
+            "id": "1538003644",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1538003644"
+            "href": "/v1/catalog/bg/artists/1538003644"
           }
         ]
       }
@@ -922,9 +922,9 @@
         "href": "/v1/catalog/bg/songs/1411628148/artists",
         "data": [
           {
-            "id": "artist-1411628148",
+            "id": "1411628148",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1411628148"
+            "href": "/v1/catalog/bg/artists/1411628148"
           }
         ]
       }
@@ -971,9 +971,9 @@
         "href": "/v1/catalog/bg/songs/1727813561/artists",
         "data": [
           {
-            "id": "artist-1727813561",
+            "id": "1727813561",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1727813561"
+            "href": "/v1/catalog/bg/artists/1727813561"
           }
         ]
       }
@@ -1020,9 +1020,9 @@
         "href": "/v1/catalog/bg/songs/1693891139/artists",
         "data": [
           {
-            "id": "artist-1693891139",
+            "id": "1693891139",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1693891139"
+            "href": "/v1/catalog/bg/artists/1693891139"
           }
         ]
       }
@@ -1069,9 +1069,9 @@
         "href": "/v1/catalog/bg/songs/1476727864/artists",
         "data": [
           {
-            "id": "artist-1476727864",
+            "id": "1476727864",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1476727864"
+            "href": "/v1/catalog/bg/artists/1476727864"
           }
         ]
       }
@@ -1118,9 +1118,9 @@
         "href": "/v1/catalog/bg/songs/1108212668/artists",
         "data": [
           {
-            "id": "artist-1108212668",
+            "id": "1108212668",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1108212668"
+            "href": "/v1/catalog/bg/artists/1108212668"
           }
         ]
       }
@@ -1167,9 +1167,9 @@
         "href": "/v1/catalog/bg/songs/1773452221/artists",
         "data": [
           {
-            "id": "artist-1773452221",
+            "id": "1773452221",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1773452221"
+            "href": "/v1/catalog/bg/artists/1773452221"
           }
         ]
       }
@@ -1216,9 +1216,9 @@
         "href": "/v1/catalog/bg/songs/1444108518/artists",
         "data": [
           {
-            "id": "artist-1444108518",
+            "id": "1444108518",
             "type": "artists",
-            "href": "/v1/catalog/bg/artists/artist-1444108518"
+            "href": "/v1/catalog/bg/artists/1444108518"
           }
         ]
       }
