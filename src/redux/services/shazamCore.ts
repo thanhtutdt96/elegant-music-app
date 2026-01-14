@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { JSONBIN_API_KEY, SONGS_BY_GENRE_MAPPING_ID } from 'assets/constants';
 import { ArtistDetail } from 'types/ArtistDetail';
-import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
 import { SongDetail } from 'types/SongDetail';
 
