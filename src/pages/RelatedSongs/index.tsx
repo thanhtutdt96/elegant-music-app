@@ -15,7 +15,6 @@ const RelatedSongs: React.FC<Props> = ({
   data,
   isPlaying,
   activeSong,
-  handlePlayClick,
   handlePauseClick,
   artistId,
 }) => (
@@ -31,7 +30,6 @@ const RelatedSongs: React.FC<Props> = ({
           isPlaying={isPlaying}
           activeSong={activeSong}
           handlePauseClick={handlePauseClick}
-          handlePlayClick={handlePlayClick}
         />
       ))}
     </div>

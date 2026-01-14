@@ -54,7 +54,7 @@ const SongBar: React.FC<Props> = ({
         </p>
       </div>
     </div>
-    {!artistId ? (
+    {!artistId && !!handlePlayClick ? (
       <PlayPause
         isPlaying={isPlaying}
         activeSong={activeSong}

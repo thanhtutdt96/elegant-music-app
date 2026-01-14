@@ -19,10 +19,9 @@ const App = () => {
   const { activeSong, genreListId } = useAppSelector((state) => state.player);
 
   // Only run the genre query when on the Discover route to check loading state
-  const { isLoading: isGenreQueryLoading } = useGetSongsByGenreQuery(
-    { genre: genreListId },
-    { skip: location.pathname !== '/' },
-  );
+  const { isLoading: isGenreQueryLoading } = useGetSongsByGenreQuery(genreListId, {
+    skip: location.pathname !== '/',
+  });
 
   // Determine if TopPlay should render
   const shouldRenderTopPlay = location.pathname !== '/' || !isGenreQueryLoading;

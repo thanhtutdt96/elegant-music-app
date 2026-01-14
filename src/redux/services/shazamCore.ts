@@ -1,26 +1,14 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { RAPID_API_KEY } from 'assets/constants';
-import songsByCountryMock from 'mocks/songsByCountry.json';
-import songsByGenreMock from 'mocks/songsByGenre.json';
-import topChartsMock from 'mocks/topCharts.json';
+import { JSONBIN_API_KEY, SONGS_BY_GENRE_MAPPING_ID } from 'assets/constants';
 import { ArtistDetail } from 'types/ArtistDetail';
 import { SearchResult } from 'types/SearchResult';
 import { Song } from 'types/Song';
 import { SongDetail } from 'types/SongDetail';
 
-const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
-
-// Artificial delay to simulate slow APIs.
-const API_DELAY_MS = 1000;
-const delay = async () => {
-  await sleep(API_DELAY_MS);
-};
-
 const rawBaseQuery = fetchBaseQuery({
-  baseUrl: 'https://shazam-core.p.rapidapi.com',
+  baseUrl: 'https://api.jsonbin.io/v3/b',
   prepareHeaders: (headers) => {
-    headers.set('X-RapidAPI-Key', RAPID_API_KEY);
-    headers.set('X-RapidAPI-Host', 'shazam-core.p.rapidapi.com');
+    headers.set('X-MASTER-KEY', JSONBIN_API_KEY);
 
     return headers;
   },
@@ -30,36 +18,33 @@ export const shazamCoreApi = createApi({
   reducerPath: 'shazamCoreApi',
   baseQuery: rawBaseQuery,
   endpoints: (builder) => ({
-    getTopCharts: builder.query<Song[], { countryCode?: string }>({
-      // query: ({ countryCode = 'US' }) => `v2/charts/world?country_code=${countryCode}`,
-      queryFn: async () => {
-        await delay();
-        return { data: topChartsMock as unknown as Song[] };
-      },
+    getTopCharts: builder.query<Song[], void>({
+      query: () => `/6967b8e7d0ea881f406bbdd9`,
+      transformResponse: (response: { record: Song[] }) => response.record,
     }),
     getSongDetails: builder.query<SongDetail, string>({
-      query: (songId: string) => `/v2/tracks/details?track_id=${songId}`,
+      query: () => `/6967bb6a43b1c97be9306fb9`,
+      transformResponse: (response: { record: SongDetail }) => response.record,
     }),
     getRelatedSongs: builder.query<Song[], string>({
-      query: (songId: string) => `/v1/tracks/related?track_id=${songId}`,
+      query: () => `/6967bdffd0ea881f406bc8d2`,
+      transformResponse: (response: { record: Song[] }) => response.record,
     }),
     getArtistDetails: builder.query<ArtistDetail, string>({
-      query: (artistId: string) => `/v2/artists/details?artist_id=${artistId}`,
+      query: () => `/6967c21fd0ea881f406bd16e`,
+      transformResponse: (response: { record: ArtistDetail }) => response.record,
     }),
     getSongsByCountry: builder.query<Song[], string>({
-      queryFn: async () => {
-        await delay();
-        return { data: songsByCountryMock as unknown as Song[] };
-      },
+      query: () => `/6967c2dcd0ea881f406bd2c8`,
+      transformResponse: (response: { record: Song[] }) => response.record,
     }),
-    getSongsByGenre: builder.query<Song[], { genre: string; countryCode?: string }>({
-      queryFn: async () => {
-        await delay();
-        return { data: songsByGenreMock as unknown as Song[] };
-      },
+    getSongsByGenre: builder.query<Song[], string>({
+      query: (genre = 'POP') => `/${SONGS_BY_GENRE_MAPPING_ID[genre]}`,
+      transformResponse: (response: { record: Song[] }) => response.record,
     }),
-    getSongsBySearch: builder.query<SearchResult, string>({
-      query: (searchTerm: string) => `/v1/search/multi?search_type=SONGS&query=${searchTerm}`,
+    getSongsBySearch: builder.query<Song[], string>({
+      query: () => `/6967c4de43b1c97be93082e3`,
+      transformResponse: (response: { record: Song[] }) => response.record,
     }),
   }),
 });

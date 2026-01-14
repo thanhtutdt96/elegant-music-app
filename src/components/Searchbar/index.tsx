@@ -1,15 +1,32 @@
-import { FormEvent, useState } from 'react';
-import { useNavigate } from 'react-router';
+import { FormEvent, useEffect, useState } from 'react';
+import { useLocation, useMatch, useNavigate } from 'react-router-dom';
 import { FiSearch } from 'react-icons/fi';
 
 const Searchbar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const searchMatch = useMatch('/search/:searchTerm');
   const [searchTerm, setSearchTerm] = useState('');
+
+  useEffect(() => {
+    const routeSearchTerm = searchMatch?.params?.searchTerm;
+    if (routeSearchTerm) {
+      setSearchTerm(decodeURIComponent(routeSearchTerm));
+      return;
+    }
+
+    if (!location.pathname.startsWith('/search')) {
+      setSearchTerm('');
+    }
+  }, [location.pathname, searchMatch?.params?.searchTerm]);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    navigate(`/search/${searchTerm}`);
+    const next = searchTerm.trim();
+    if (!next) return;
+
+    navigate(`/search/${encodeURIComponent(next)}`);
   };
 
   return (

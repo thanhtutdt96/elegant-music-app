@@ -11,9 +11,7 @@ const Discover = () => {
 
   const { activeSong, isPlaying, genreListId } = useAppSelector((state) => state.player);
 
-  const { data, isLoading, error } = useGetSongsByGenreQuery({
-    genre: genreListId,
-  });
+  const { data, isLoading, error } = useGetSongsByGenreQuery(genreListId, { skip: !genreListId });
 
   if (isLoading) {
     return <Loader title="Loading songs..." />;

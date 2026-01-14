@@ -46,20 +46,21 @@ const AroundYou = () => {
   return (
     <div className="flex flex-col">
       <h2 className="font-bold text-3xl text-white text-left mt-4 mb-10">
-        Around You <span className="font-black">{country}</span>
+        Around You <span className="font-black">VN</span>
       </h2>
 
       <div className="flex flex-wrap sm:justify-start justify-center gap-8">
-        {data?.map((song, index) => (
-          <SongCard
-            key={song.id}
-            song={song}
-            index={index}
-            data={data}
-            activeSong={activeSong}
-            isPlaying={isPlaying}
-          />
-        ))}
+        {data &&
+          data?.map((song, index) => (
+            <SongCard
+              key={song.id}
+              song={song}
+              index={index}
+              data={data}
+              activeSong={activeSong}
+              isPlaying={isPlaying}
+            />
+          ))}
       </div>
     </div>
   );

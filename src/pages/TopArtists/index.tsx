@@ -4,7 +4,7 @@ import Error from 'components/Error';
 import Loader from 'components/Loader';
 
 const TopArtists = () => {
-  const { data, isFetching, error } = useGetTopChartsQuery({});
+  const { data, isFetching, error } = useGetTopChartsQuery();
 
   if (isFetching) {
     return <Loader title="Loading top artists" />;

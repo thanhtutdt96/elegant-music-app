@@ -31,3 +31,17 @@ export const links = [
 
 export const RAPID_API_KEY = import.meta.env.VITE_RAPID_API_KEY;
 export const GEO_IPIFY_KEY = import.meta.env.VITE_GEO_IPIFY_API_KEY;
+export const JSONBIN_API_KEY = import.meta.env.VITE_JSONBIN_MASTER_KEY;
+
+export const SONGS_BY_GENRE_MAPPING_ID: Record<string, string> = {
+  POP: '6967b8afd0ea881f406bbd74',
+  HIP_HOP_RAP: '6967b95cd0ea881f406bbf37',
+  DANCE: '6967bc5a43b1c97be9307179',
+  ELECTRONIC: '6967b8afd0ea881f406bbd74',
+  SOUL_RNB: '6967b8afd0ea881f406bbd74',
+  ALTERNATIVE: '6967b8afd0ea881f406bbd74',
+  ROCK: '6967b8afd0ea881f406bbd74',
+  LATIN: '6967b8afd0ea881f406bbd74',
+  FILM_TV: '6967b8afd0ea881f406bbd74',
+  COUNTRY: '6967b8afd0ea881f406bbd74',
+};
